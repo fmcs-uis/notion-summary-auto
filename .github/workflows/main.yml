@@ -2,7 +2,7 @@ name: Notion Sync Runner
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # 每10分鐘跑一次（可調整）
+    - cron: '*/1 * * * *'  # 每10分鐘跑一次（可調整）
   workflow_dispatch:       # 可手動觸發
 
 jobs:
